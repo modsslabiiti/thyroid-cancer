@@ -60,3 +60,24 @@ pip install numpy==1.23.5 matplotlib==3.6.3 scikit-learn==1.1.3 imbalanced-learn
 2. Update the paths at the top of the notebook (they currently point to Kaggle paths like `/kaggle/input/...` and `/kaggle/working`) to your local data/output folders.
 3. Run all cells top to bottom in Jupyter.
 4. Outputs: trained SVM models (`.pkl`) and a `fold_predictions.csv` with results.
+
+---
+
+## Citation
+
+If you use this code in your research, please cite: # Insert/Update the citation once arxiv is available
+
+```
+@article{SAINI2026102844,
+title = {Accurate thyroid cancer classification using a novel binary pattern driven local discrete cosine transform descriptor},
+journal = {Journal of Computational Science},
+volume = {96},
+pages = {102844},
+year = {2026},
+issn = {1877-7503},
+doi = {https://doi.org/10.1016/j.jocs.2026.102844},
+url = {https://www.sciencedirect.com/science/article/pii/S1877750326000621},
+author = {Saurabh Saini and Kapil Ahuja and Marc C. Steinbach and Thomas Wick}
+}
+
+```
